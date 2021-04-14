@@ -1,0 +1,221 @@
+:root {
+  --main-font: Roboto, sans-serif;
+  --secondary-font: Raleway, sans-serif;
+  --main-color: #212121;
+  --second-color: #757575;
+  --third-color: #fff;
+  --fourth-color: rgba(255, 255, 255, 0.6);
+  --hover-color: #2196f3;
+  --first-background-color: #2f303a;
+  --second-background-color: #f5f4fa;
+}
+body {
+  font-family: var(--main-font);
+  background-color: var(--third-color);
+  color: var(--main-color);
+}
+
+/* ===== LOGO ===== */
+.logo1,
+.logo2 {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  text-decoration: none;
+  letter-spacing: 0.03em;
+}
+.logo1 {
+  color: var(--main-color);
+}
+.logo2 {
+  color: var(--third-color);
+}
+.logo-span {
+  color: var(--hover-color);
+}
+/* ===== END LOGO ===== */
+
+/* ===== NAGŁÓWEK ===== */
+.menu-item .current {
+  color: var(--hover-color);
+}
+.menu-list,
+.header-contacts {
+  list-style: none;
+}
+.menu-item-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: var(--main-color);
+}
+.menu-item-link:hover,
+.menu-item-link:focus,
+.header-contacts-item-link:hover,
+.header-contacts-item-link:focus {
+  color: var(--hover-color);
+}
+.header-contacts-item-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  text-decoration: none;
+  letter-spacing: 0.02em;
+  color: var(--second-color);
+}
+/* ===== END NAGŁÓWEK ===== */
+
+/* ===== STOPKA ===== */
+.footer {
+  background-color: var(--first-background-color);
+}
+.address-list {
+  font-style: normal;
+  list-style: none;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+.address-list-item-link {
+  text-decoration: none;
+  color: var(--fourth-color);
+}
+.location {
+  color: var(--third-color);
+}
+.address-list-item-link:hover,
+.address-list-item-link:focus {
+  color: var(--hover-color);
+}
+/* ===== END STOPKA ===== */
+
+
+/* ========== STRONA AGENCJA ==========*/
+/* ===== SEKCJA "HEADER" ===== */
+.main-header {
+  background-color: var(--first-background-color);
+}
+.main-header-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  color: var(--third-color);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.main-header-button {
+  background-color: var(--hover-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 1.9;
+  color: var(--third-color);
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+/* ===== END SEKCJA "HEADER" ===== */
+
+/* ===== NASZE ATUTY ===== */
+.advantages-list {
+  list-style: none;
+}
+.advantages-list-item-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.advantages-list-item-text {
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--second-color);
+}
+/* ===== END NASZE ATUTY ===== */
+
+/* ===== CZYM SIĘ ZAJMUJEMY ===== */
+.activities-header {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+}
+.activities-list {
+  list-style: none;
+}
+/* ===== END CZYM SIĘ ZAJMUJEMY ===== */
+
+/* ===== NASZ ZESPÓŁ ===== */
+.team {
+  background-color: var(--second-background-color);
+}
+.team-header {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+}
+.team-list {
+  list-style: none;
+}
+.team-list-item {
+  background-color: var(--third-color);
+}
+.teammate {
+  font-weight: 500;
+}
+.teammate,
+.teammate-spec {
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+.teammate-spec {
+  color: var(--second-color);
+}
+/* ===== END NASZ ZESPÓŁ ===== */
+/* ========== END STRONA AGENCJA ==========*/
+
+/* ========== STRONA PORTFOLIO ========== */
+/* ===== FILTR =====*/
+.button-list {
+  list-style: none;
+}
+.button {
+  background-color: var(--second-background-color);
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: var(--hover-color);
+  color: var(--third-color);
+}
+/* ===== END FILTR =====*/
+
+/* ===== PROJEKTY =====*/
+.projects-list {
+  list-style: none;
+}
+.projects-list-item-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.projects-list-item-category {
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+  color: var(--second-color);
+}
+/* ===== END PROJEKTY =====*/
+/* ========== END STRONA PORTFOLIO ========== */
